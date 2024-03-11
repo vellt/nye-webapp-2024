@@ -1,4 +1,5 @@
 import { Item, uniqueFilter } from './task-02';
+import { input, output } from './task-02.json';
 
 describe('task-02', () => {
   interface TestCase {
@@ -23,7 +24,11 @@ describe('task-02', () => {
         { id: 5, name: 'd' }, 
         { id: 6, name: 'g' },
       ],
-    }
+    },
+    {
+      input,
+      output,
+    },
   ];
 
   it('should be defined', () => {
