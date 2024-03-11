@@ -2,7 +2,7 @@
 
 ## Szükséges eszközök
 - [NodeJS 20](https://nodejs.org/en)
-- Yarn (opcionális): `npm install -g yarn`
+- Yarn (ajánlott, de opcionális): `npm install -g yarn`
 - Saját github account
 - TypeScript-et támogató szerkesztő
 
@@ -37,19 +37,23 @@ Ha ezen belül egy adott teszteset eredményére vagy csak kíváncsi:
 5. A unit teszteket (*.spec.ts fájlok) nem módosíthatod - ez alól kivételt képez, ha az adott feladatot **NEM** akarod teljesíteni.
     - Ha nem akarod teljesíteni, az adott spec.ts fájl `describe` utasítását cseréld le `describe.skip`-re
     - pl.: task-03.spec.ts: `describe('task-03', () => {` => `describe.skip('task-03', () => {`
-6. Egy feladatot megoldottnak tekintünk, ha azt a unit teszt zöldként jelzi
-7. Harmadik féltől származó kód nem használható, package.json és yarn.lock nem módosulhat
-8. Közepes és nehéz feladatoknál plágium gyanúja esetén minden érintett köteles elszámolni a megoldásával
+6. Egy feladatot megoldottnak tekintünk, ha arra a Unit teszt hiba nélkül lefut.
+7. Harmadik féltől származó kód nem használható, package.json és yarn.lock nem módosulhat.
+8. Közepes és nehéz feladatoknál plágium gyanúja esetén minden érintett köteles elszámolni a megoldásával.
 
 ## Beadás - határidő: 2024. március 24. 23:59:59
 A feladatok beadása GitHub-on keresztül történik, egy Pull request formájában.
 
-1. Készíts egy branch-et a `main`-ből a következő formában: `{NEPTUN-KOD}/{vezeteknev-keresztnev}` (ékezetek és kapcsos zárójelek nélkül, pl `ABC123/toth-laszlo-bela`) és válts erre a branch-re
-2. Módosítsd azokat a feladatokat, amiket szeretnél megoldani.
-3. Miután végeztél, `git commit -m "task-01, task-04, task-05"` paranccsal készíts egy commit-ot; az üzenet tartalmazza a megoldott feladatokat
-4. `git push origin {sajat-branch-ed}` paranccsal küldd fel a repository-ba
-5. Készíts egy Pull request-et a saját branch-edből a `main` branch-re. A Pull request címe egyezzen meg a branch nevével
-6. A direkt main commit tiltott
-7. **Beadási határidő: 2024. március 24. 23:59:59.** Az utolsó commit időpontja számít. Kiértékelés 2024. március 31-ig, approve formájában. Merge tilos.
+1. Készíts egy Fork-ot repository-ról a saját névteredbe.
+2. Készíts egy branch-et a `main`-ből a következő formában: `{NEPTUN-KOD}/{vezeteknev-keresztnev}` (ékezetek és kapcsos zárójelek nélkül, pl `ABC123/toth-laszlo-bela`) és válts erre a branch-re
+3. Módosítsd azokat a feladatokat, amiket szeretnél megoldani.
+4. Miután végeztél, `git commit -m "task-01, task-04, task-05"` paranccsal készíts egy commit-ot; az üzenet tartalmazza a megoldott feladatok nevét
+5. `git push origin {sajat-branch-ed}` paranccsal küldd fel a repository-ba
+6. Készíts egy Pull request-et a saját branch-edből a `main` branch-re. A Pull request címe egyezzen meg a branch nevével
+7. A direkt main commit tilos, automatikus kizárást von maga után
+8. Küldd el a pull request URL-jét saját neveddel és neptun kódoddal az alábbi email címekre: **jozsef_gal@epam.com** és **vegera.jozsef@nye.hu**
+8. **Beadási határidő:**  
+     - Nappali tagozatos hallgatóknak: **2024. március 25. 08:00:00**. Kiértékelés 2024. március 31-ig.  
+     - Levelező tagozatos hallgatóknak: **2024. április 7. 08:00:00**. Kiértékelés 2024. áprlis 14-ig.
 
 A megoldást nem fogadjuk el, ha a fenti feltételek nem teljesülnek.

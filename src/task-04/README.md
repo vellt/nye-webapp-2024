@@ -3,7 +3,7 @@
 - Pontszám: **10**
 
 ## Leírás
-A klasszikus kő-papír-olló játékot mindenki ismeri: két játékos egyszerre mutatja fel a kezét a megfelelő szimbólummal, és az nyer, aki a másikénál erősebbet adott; a kő veri az ollót, az olló elvágja a papírt, a papír pedig becsomagolja a követ. Ha ugyanazt a jelet mutatták, akkor az döntetlen.
+A klasszikus kő-papír-olló játékot mindenki ismeri: két játékos egyszerre mutatja fel a kezét a megfelelő szimbólummal, és az nyer, aki a másikénál erősebbet adott; a kő üti az ollót, az olló elvágja a papírt, a papír pedig becsomagolja a követ. Ha ugyanazt a jelet mutatták, akkor az döntetlen.
 
 Ebben a verzióban az adott játék kimenetétől, és a felmutatott jeltől függően pontokat kaphatunk: 
 - ha nyerünk (`win`) `6` pontot szerzünk,
@@ -37,4 +37,4 @@ A különféle értékeket `enum` típusban tároljuk az elütések elkerülése
 Használj szükség szerint saját segédfüggvényt és/vagy adatszerkezetet a munka megkönnyítése érdekében.
 
 ### Tipp
-Használd az enumokat a stringek helyett
+Használj enumokat a stringek helyett

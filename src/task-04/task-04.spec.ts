@@ -20,9 +20,9 @@ describe('task-04', () => {
     expect(typeof rockPaperScissors).toBe('function');
   });
 
-  test.each(TEST_CASES)('it should return with the proper output', (testCase) => {
-    const output = rockPaperScissors(testCase.input);
-    expect(typeof output).toBe('number');
-    expect(output).toBe(testCase.output);
+  test.each(TEST_CASES)('it should return with the proper output', ({ input, output }) => {
+    const result = rockPaperScissors(input);
+    expect(typeof result).toBe('number');
+    expect(result).toBe(output);
   });
 });

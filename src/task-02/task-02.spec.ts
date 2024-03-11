@@ -31,12 +31,12 @@ describe('task-02', () => {
     expect(typeof uniqueFilter).toBe('function');
   });
 
-  test.each(TEST_CASES)('should return an array containing unique items only', (testCase) => {
-    const originalLength = testCase.input.length;
-    const result = uniqueFilter(testCase.input);
+  test.each(TEST_CASES)('should return an array containing unique items only', ({ input, output }) => {
+    const originalLength = input.length;
+    const result = uniqueFilter(input);
     expect(result).toBeInstanceOf(Array);
-    expect(result).toHaveLength(testCase.output.length);
-    expect(result).toEqual(testCase.output);
-    expect(testCase.input).toHaveLength(originalLength); //no changes applyied in the input
+    expect(result).toHaveLength(output.length);
+    expect(result).toEqual(output);
+    expect(input).toHaveLength(originalLength); //no changes applyied in the input
   });
 });

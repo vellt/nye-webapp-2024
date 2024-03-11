@@ -44,6 +44,7 @@ A keresés mindig összetett feladat, több paramétert is kezelni kell egyszerr
 - Minden paraméter opcionális, de ha meg van adva, érvényes (most nem kell ellenőrizni). Definináld az alértelmezéseket!
 - Az array függvényeknek jó hasznát veszed, pl filter, includes, some, sort
 - A keresési kitételhez használhatsz reguláris kifejezést, vagy szimpla indexOf függvényt -a kis és nagybetűk különbőzéségére viszont ügyelj
+- Nincsenek magyar nyelvi sajátosságok, csak az angol ABC karakterei szerepelnek az adathalmazban
 
 ### Tipp
 - Szervezd ki a feladatokat különféle függvényekbe

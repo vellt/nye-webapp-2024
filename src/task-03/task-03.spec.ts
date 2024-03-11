@@ -44,9 +44,9 @@ describe('task-03', () => {
     expect(typeof minimalCubeSet).toBe('function');
   });
 
-  test.each(TEST_CASES)('should collect the number of minimal number of cubes for each draw', (testCase) => {
-    const result = minimalCubeSet(testCase.input);
+  test.each(TEST_CASES)('should collect the number of minimal number of cubes for each draw', ({ input, output }) => {
+    const result = minimalCubeSet(input);
     expect(typeof result).toBe('number');
-    expect(result).toEqual(testCase.output);
+    expect(result).toEqual(output);
   });
 });

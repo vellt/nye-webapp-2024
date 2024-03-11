@@ -19,8 +19,8 @@ describe('task-01', () => {
 
   test.each(TESTS)(
     'should return with the sum of numbers within an array',
-    (testItem) => {
-      expect(arraySum(testItem.input)).toEqual(testItem.output);
+    ({ input, output }) => {
+      expect(arraySum(input)).toEqual(output);
     }
   );
 });
