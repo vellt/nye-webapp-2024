@@ -41,7 +41,7 @@ Ha ezen belül egy adott teszteset eredményére vagy csak kíváncsi:
 7. Harmadik féltől származó kód nem használható, package.json és yarn.lock nem módosulhat.
 8. Közepes és nehéz feladatoknál plágium gyanúja esetén minden érintett köteles elszámolni a megoldásával.
 
-## Beadás - határidő: 2024. március 24. 23:59:59
+## Beadás - határidő: 2024. március 25. 08:00:00
 A feladatok beadása GitHub-on keresztül történik, egy Pull request formájában.
 
 1. Készíts egy Fork-ot repository-ról a saját névteredbe.
