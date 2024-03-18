@@ -6,7 +6,7 @@ export enum Shape {
 
 export enum Outcome {
   WIN = 'win',
-  LOOSE = 'loose',
+  LOOSE = 'lose',
   DRAW = 'draw',
 }
 
